@@ -1,7 +1,7 @@
 const got = require('got')
 const geolib = require('geolib')
 
-const delay = 10
+const delay = 5
 const url = 'http://api.open-notify.org/iss-now.json'
 const myPosition = {
   latitude: 30.2077,
