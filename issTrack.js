@@ -2,9 +2,11 @@ const got = require('got')
 const geolib = require('geolib')
 
 const url = 'http://api.open-notify.org/iss-now.json'
+
+// Baton Rouge, LA
 const myPosition = {
-  latitude: 30.2077,
-  longitude: -92.0656
+  latitude: 30.4515,
+  longitude: -91.1871
 }
 
 const getDistance = async () => {
